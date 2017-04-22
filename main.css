@@ -1,0 +1,34 @@
+body{
+  background-image: url("water-and-sky-background-blue.jpg");
+  background-size: 8000px 1000px;
+    background-repeat: no-repeat;
+
+    h1 {
+       color: blue;
+    }
+}
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 10;
+  overflow: hidden;
+  background-color: #1A0D63;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 4px 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #3F5042;
+}
+</style>
