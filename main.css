@@ -3,11 +3,18 @@ body{
   background-size: 8000px 1000px;
     background-repeat: no-repeat;
 
-    h1 {
-       color: blue;
-    }
+
 }
-<style>
+
+.header {
+  font-size: 36pt;
+  font-family: "Cambria";
+  color: blue;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 60px;
+  margin-top: 28px;
+}
 ul {
   list-style-type: none;
   margin: 0;
@@ -16,16 +23,14 @@ ul {
   background-color: #1A0D63;
 }
 
-li {
+.menu li a {
   float: left;
-}
-
-li a {
   display: block;
   color: white;
   text-align: center;
   padding: 4px 30px;
   text-decoration: none;
+  font-size: 18pt;
 }
 
 li a:hover {
