@@ -1,7 +1,7 @@
 body{
   background-image: url("water-and-sky-background-blue.jpg");
-  background-size: 8000px 1000px;
-    background-repeat: no-repeat;
+
+
 
 
 }
@@ -19,7 +19,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 10;
-  overflow: hidden;
+
   background-color: #1A0D63;
 }
 
@@ -28,7 +28,7 @@ ul {
   display: block;
   color: white;
   text-align: center;
-  padding: 4px 30px;
+  padding: 12px 30px;
   text-decoration: none;
   font-size: 18pt;
 }
@@ -36,12 +36,12 @@ ul {
 li a:hover {
   background-color: #3F5042;
 }
-<style>
+
 .dropbtn {
     background-color: #1A0D63;
     color: white;
-    padding: 16px;
-    font-size: 16px;
+      padding: 15px 30px;
+    font-size: 18px;
     border: none;
     cursor: pointer;
 }
@@ -65,6 +65,7 @@ li a:hover {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1}
@@ -76,4 +77,3 @@ li a:hover {
 .dropdown:hover .dropbtn {
     background-color: #3F5042;
 }
-</style>
