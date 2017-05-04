@@ -77,3 +77,6 @@ li a:hover {
 .dropdown:hover .dropbtn {
     background-color: #3F5042;
 }
+.pic{
+  text-align: center;
+}
